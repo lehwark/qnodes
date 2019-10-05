@@ -1,11 +1,12 @@
 {
   "name": "qnodes",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "description": "Typescript DOM manipulation inspired by JQuery",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {},
   "repository": {
