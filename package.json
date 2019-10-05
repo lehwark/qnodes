@@ -1,0 +1,29 @@
+{
+  "name": "qnodes",
+  "version": "1.8.2",
+  "description": "Typescript DOM manipulation inspired by JQuery",
+  "main": "build/server/index.js",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build:dev": "rm -rvf ./build && webpack --env dev -w",
+    "build:prod": "rm -rvf ./build && webpack --env prod  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lehwark/qnodes.git"
+  },
+  "keywords": [],
+  "author": "Pascal Lehwark <pascal@ntzwrk.de>",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
