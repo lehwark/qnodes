@@ -68,25 +68,12 @@ Q(".myclass").attr({ myattr: "foo" }).removeClass("myclass");
 Q("a[href='#']").detach();
 ```
 
-
-
-
-
-
-<!-- 
-Just use QNodes as if it were JQuery but with Q instead of $, like this:
+#### Animation
+QNodes uses CSS animations internally
 ```typescript
-Q(".someclass").html("<p>Hello World</p>");
-
-Q("a").on("click", (ev, $node) => {
-	console.log("clicked the link");
-	$node.detach();
-	console.log("… and detached it");
-	return false;
+Q("#mydiv").animate({ opacity: 0.5 }, 750, "linear", ($nodes) => {
+	//callback;
 });
+```
 
-const $el:QNodes = Q("H1").first();
-if($el.hasClass("headline")){
-	console.log("found the thing");
-}
-``` -->
+

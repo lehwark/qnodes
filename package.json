@@ -1,6 +1,6 @@
 {
   "name": "qnodes",
-  "version": "1.8.10",
+  "version": "1.8.11",
   "description": "A tiny (3.22KB minified & gzipped) DOM manipulation library written in TypeScript inspired by JQuery.",
   "main": "index.js",
   "types": "index.d.ts",
