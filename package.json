@@ -1,9 +1,20 @@
 {
   "name": "qnodes",
-  "version": "1.8.11",
+  "version": "1.8.12",
   "description": "A tiny (3.22KB minified & gzipped) DOM manipulation library written in TypeScript inspired by JQuery.",
+  "keywords": [
+    "typescript",
+    "jquery",
+    "javascript",
+    "es6",
+    "dom"
+  ],
   "main": "index.js",
   "types": "index.d.ts",
+  "bugs": {
+    "url": "https://github.com/lehwark/qnodes/issues",
+    "email": "pascal@ntzwrk.de"
+  },
   "files": [
     "index.js",
     "index.d.ts",
@@ -14,11 +25,10 @@
     "type": "git",
     "url": "https://github.com/lehwark/qnodes.git"
   },
-  "keywords": [],
   "author": "Pascal Lehwark <pascal@ntzwrk.de>",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {    
+  "devDependencies": {
     "typescript": "^3.6.2"
   }
 }
